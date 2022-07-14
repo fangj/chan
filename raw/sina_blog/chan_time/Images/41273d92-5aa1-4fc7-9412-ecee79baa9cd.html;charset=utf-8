@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>出错啦</title>
+<style type="text/css">
+*{ padding:0; margin:0}
+html{height:100%;}
+body{background:url(http://js.bokee.com/newbokee_home/default/images/error_bg.jpg)  no-repeat center bottom #E0EEF9;}
+.errorcon{ width:295px; height:193px; margin:150px auto 0 auto; padding:40px 0 0 40px ; background:url(http://js.bokee.com/newbokee_home/default/images/error_conbg.jpg) no-repeat}
+.cc{font:normal 22px/32px "微软雅黑" ; color:#5c5c5c;}
+.errorcon a{ font-family:"微软雅黑"; font-size:14px; color:#006DC1; line-height:22px; text-decoration:none}
+.errorcon a:hover{ text-decoration:underline}
+</style>
+</head>
+<script>
+ var i=3;
+ function goIndex()
+ {  
+   i--;
+   document.getElementById('redict').innerHTML=i;
+   if(i>0)
+   {
+      setTimeout('goIndex()',1000);
+   }else {
+      window.location.href="http://www.bokee.com";
+   }
+ }
+ 
+ setTimeout('goIndex()',1000)
+ </script>
+ 
+<body>
+<div class="errorcon">
+	<p  class="cc">抱歉!<br />您访问的页面不存在！<br /></p>
+    <p><a  href="http://www.bokee.com">正在跳转首页...<span style="font-size: 18px;" id="redict">3</span></a></p>
+    <p><a href="javascript:window.opener=null;window.open('','_self');window.close();">关闭本页</a></p>
+</div>
+</body>
+</html>
+

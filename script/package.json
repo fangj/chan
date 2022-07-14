@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "html-format": "^1.0.1",
+    "sanitize-html": "^2.7.0"
+  }
+}
