@@ -86,7 +86,7 @@ function test_tidy_article2(){
 	fs.ensureDirSync(output_dir)
 	tidy_article(input_path,output_path,false)
 }
- test_tidy_article2();
+ // test_tidy_article2();
 
 function tidy_all_files_fenlei(){
 	const input_dir = path.join(__dirname, "..", "raw","sina_blog", "chan_fenlei")
@@ -94,7 +94,7 @@ function tidy_all_files_fenlei(){
 
 	tidy_all_files(input_dir,output_dir)
 }
-// tidy_all_files_fenlei()
+tidy_all_files_fenlei()
 
 function tidy_all_files_time(){
 	const input_dir = path.join(__dirname, "..", "raw","sina_blog", "chan_time")

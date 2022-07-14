@@ -1,0 +1,6 @@
+电子书制作步骤
+
+使用sigil
+1.  把清理过的html加入
+2.  整理索引文件，复制到content.opf的spine
+3. 用sigil生成目录(根据h1)和目录文件
