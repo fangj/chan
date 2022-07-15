@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>darkxcy的博客</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="darkxcy的博客"/>
+<meta name="keywords" content="darkxcy,darkxcy的博客,darkxcy博客网,bokee.com"/>
+<meta name="author" content="darkxcy"/>
+<base target="_blank" />
+<link rel="Shortcut Icon" href="http://avatar.blogchina.com/HeadPic/74b30f1f560bc2a21c44c2e5c524c284!small">
+<link rel="icon" href="http://avatar.blogchina.com/HeadPic/74b30f1f560bc2a21c44c2e5c524c284!small">
+<link href="http://js.bokee.com/newbokee_home/default/css/style.css" type="text/css" rel="stylesheet"/>
+<link href="http://js.bokee.com/newbokee_home/default/css/index.css" type="text/css" rel="stylesheet"/>
+<script src="http://js.bokee.com/newbokee_home/default/script/common.js" type="text/javascript"></script>
+<script src="http://js.bokee.com/newbokee_home/default/jslib/sea.js" type="text/javascript"></script>
+<script type="text/javascript">
+		seajs.use("http://js.bokee.com/newbokee_home/default/script/index",function(index){
+				index.initIndex();
+		});
+		//alert("\u9650\u91cf,\u6e05\u4ed3,\u9996\u53d1,\u6ee1\u51cf,\u6ee1\u8d60,\u76f4\u964d,\u65b0\u54c1,\u72ec\u5bb6,\u4eba\u6c14,\u70ed\u5356");
+</script>
+<script src="http://cbjs.baidu.com/js/m.js" type="text/javascript"></script>
+
+</head>
+<body class="body_opacity">
+<span itemscope itemtype="http://schema.org/Article">
+<div class="top">
+ <input name="bodyBgName" id="bodyBgName" type="hidden" value="bg_default.jpg" />
+    <div class="topall" style="display: none;">
+    <div class="top_lt left"> <span class="logo left"> <a href="http://www.bokee.com/"><img src="http://js.bokee.com/newbokee_home/default/images/logo.jpg" title="博客网" alt="博客网"/></a> </span>
+      <div class="tablist left">
+      <ul>
+      <li class="font_big" id="myblog"></li>
+      <li class="hidden" id="mymanage"></li>
+      <li class="hidden" id="myphoto"><a href="#">我的图样</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="top_rt right">
+      <div class="search right"> <a href="" class="right"></a>
+        <input value="" class="right" />
+      </div>
+      <div class="tablist right user_tablist">
+      <ul>
+      <li class="font_big" id="myblog2"></li>
+      <li class="hidden"><a href="http://uhome.blogchina.com/user/basics.action?origin=b">个人中心</a></li>
+      <li class="hidden"><a href="http://uhome.blogchina.com/user/modifyPass.action?origin=b">修改密码</a></li>
+      <li class="hidden" id="quit"></li>
+      </ul>
+      </div>
+       <span class="right" id="writetuyang"></span>
+      <span class="right" id="writeblog"></span> <span class="right"><a href="http://tuyang.bokee.com/hd/1314">1314活动</a></span> </div>
+  </div>
+
+
+  <div class="nologin_topall">
+  
+    <div class="nologin_top left"> <span class="logo left"> <a href="http://www.bokee.com/"><img src="http://js.bokee.com/newbokee_home/default/images/logo.jpg" title="博客网" alt="博客网" />
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="[博客网]"></span>
+    </a> </span>
+      <div class="user_name left"><strong class="left">用户名：</strong>
+        <input name="username" id="username" type="text" value="" class="left"/>
+      </div>
+      <div class="pass_word left"><strong class="left">密码：</strong>
+        <input name="password" id="password" value="" type="password" class="left" />
+      </div>
+      <div class="btn left">
+     	<input type="hidden" name="type" id="type" value="1" />
+        <input type="button" class="login_btn" value="登录 " id="login"/>
+        <input type="button" class="login_btn" value="注册 " id="regist"/>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="header">
+  <div class="header_lt left"> <span class="user_name"><a href="http://darkxcy.bokee.com"><span itemprop="name">darkxcy<strong>的博客</strong></span></a></span><br/>
+    <span class="web_url"><a itemprop="url" href="http://darkxcy.bokee.com">http://darkxcy.bokee.com</a></span></div>
+  <div class="nav right">
+    <ul>
+      <li class="current"><a target="_self" href="http://darkxcy.bokee.com">首页</a></li>
+      <li><a href="http://darkxcy.bokee.com/newest/1">博文</a></li>
+      <li><a href="http://tuyang.bokee.com/method/visitor/photosList/564760">图样</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="main_shadow">
+  <div class="main">
+    <div class="main_lt left">
+      <h2><span class="xc_current"><a href="http://darkxcy.bokee.com">博文</a></span>
+      	  <span><a href="http://darkxcy.bokee.com/graphic/1">图样志</a></span>
+	  </h2>
+
+      <div class="advert1">
+      <!-- ad通栏前导代码 -->
+      <script src="http://rmtx.ra.icast.cn/b.js" type="text/javascript"></script>
+      
+      
+      <script type="text/javascript">BAIDU_CLB_fillSlot("653814");</script>
+      <!--  
+      <a href=""><img src="http://js.bokee.com/newbokee_home/default/testImgs/ad1.jpg"/></a>
+      -->
+      </div>
+      
+      <!--  -->      
+            <!--  -->
+      
+      
+      <div class="page_turn" id="page_turn">
+       <!-- <ul>
+          <li class="page_current"><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">5</a></li>
+          <li>…</li>
+          <li><a href="">尾页</a></li>
+        </ul> -->
+      </div>
+    </div>
+    <div class="main_rt_opacity"></div>
+    <div class="main_rt right">
+      <div class="user_par">
+        <div class="tp"><a href="http://darkxcy.bokee.com"><img src="http://avatar.blogchina.com/HeadPic/74b30f1f560bc2a21c44c2e5c524c284!big" onerror="this.src='http://js.bokee.com/newbokee_home/default/images/bokee_default_avatar.png'" title="darkxcy" alt="darkxcy" /></a></div>
+        <h2><a href="http://darkxcy.bokee.com">darkxcy</a></h2>
+        <ul>
+          <li>文章总数：<span id="allartnum">0</span></li>
+          <li>文章点击数：<span id="allartclicknum">0</span></li>
+          <li>评论数：<span id="allartcommentnum">0</span></li>
+          <li>支持数：<span id="allartsupport">0</span></li>
+          <li>反对数：<span id="allartoppose">0</span></li>
+        </ul>
+      </div>
+      <div class="advert3">
+      <div class="advert3_bor">
+      <script src="http://rmtx.ra.icast.cn/p.js" type="text/javascript"></script>
+      <script type="text/javascript" SRC="http://js.adm.cnzz.net/s.php?sid=238588"></script>
+      <script type="text/javascript">BAIDU_CLB_fillSlot("653819");</script>
+      </div>
+      <!-- 
+      <a href=""><img src="http://js.bokee.com/newbokee_home/default/testImgs/ad3.jpg"/></a>
+      -->
+      </div>
+      <div class="grph">
+        <div id="rank">  <span class="left">个人排行</span>
+          <ul class="right" >
+
+				<li><a href="#tabCc1" rel="http://home.bokee.com/home.php/blog/rank/uname/darkxcy/type/click">点击</a></li>
+	            <li><a href="#tabCc2" rel="http://home.bokee.com/home.php/blog/rank/uname/darkxcy/type/support">支持</a></li>
+	            <li><a href="#tabCc3" rel="http://home.bokee.com/home.php/blog/rank/uname/darkxcy/type/comment">评论</a></li>
+
+          </ul>
+        </div>
+        <ul id="tabCc1"></ul><ul id="tabCc2"></ul><ul id="tabCc3"></ul>
+      </div>
+      <div class="advert4">
+      <div class="advert4_bor">
+      <script type="text/javascript">BAIDU_CLB_fillSlot("653820");</script>
+      </div>
+      <!-- 
+      <a href=""><img src="http://js.bokee.com/newbokee_home/default/testImgs/ad4.jpg"/></a>
+       -->
+      </div>
+      
+      <div class="zjlf"> <span class="left">最近来访<em id="footprintnum">(0)</em></span><strong class="right"><!--<a href="">更多</a>--></strong>
+        <ul id="footprint">
+        </ul>
+        
+      </div>
+      
+      <div id="sliderFix">
+	      <div class="bwfl"> <span>博文分类</span>
+	      <span id="manage">
+	      </span>
+	        <ul id="category">
+	        <li>· <a target="_self" href="http://darkxcy.bokee.com/newest/1" >全部博文<span id="allblognum">(0)</span></a></li>
+	        </ul>
+	      </div>
+	      <div class="rqgd" id="archive"> <span>日期归档</span>
+	      </div>
+      </div>
+      
+    </div>
+  </div>
+</div></span><!-- span with top  span not delete  -->
+<input name="hidden_uname" id="hidden_uname" type="hidden" value="darkxcy" />
+<input name="autoPageCur" id="autoPageCur" type="hidden" value="6" />
+<input name="autoPageCnt" id="autoPageCnt" type="hidden" value="19" />
+<input name="autoPageUrl" id="autoPageUrl" type="hidden" value="http://darkxcy.bokee.com/" />
+<input name="autoPagePer" id="autoPagePer" type="hidden" value="10" />
+<div class="footer">
+  <div>Copyright 2001 - 2013 bokee.com, All Rights Reserved<br/>
+    增值电信业务经营许可证编号：B2-20100256　　京ICP证050706　　客户服务热线：15110263473<br/><span><a href="http://www.blogchina.com/"><img src="http://js.bokee.com/newbokee_home/default/images/footer_pic_bkzg.jpg" /></a></span><span><a href="http://www.blogdriver.com 
+"><img src="http://js.bokee.com/newbokee_home/default/images/footer_pic_bkdl.jpg" /></a></span>
+   <br/>
+  </div>
+</div>
+
+<script type="text/javascript">
+document.write(unescape("%3Cscript src='http://js.bokee.com/newbokee_home/default/script/stac.js' type='text/javascript'%3E%3C/script%3E")); 
+</script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F63dc2a87774b930c2d43b83fdc7ff4ef' type='text/javascript'%3E%3C/script%3E"));
+</script><!--宽通代码：-->
+<!--SmartMedia Begin:-->
+<!--<script src="http://smjs.allyes.com/sm.js" type="text/javascript"></script>
+<script src="http://smjs.allyes.com/bokee++inpage++sm++show.js" type="text/javascript"></script>-->
+<!--SmartMedia End-->
+
+
+<!--易传媒代码：-->
+<script type="text/javascript">//<![CDATA[
+ac_as_id = 39639;
+ac_click_track_url = "";
+ac_format = 0;
+ac_mode = 1;
+ac_width = 280;
+ac_height = 210;
+//]]></script>
+<script src="http://static.acs86.com/g.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">//<![CDATA[
+ac_as_id = 75582;
+ac_click_track_url = "";ac_format = 0;ac_mode = 1;
+ac_width = 280;ac_height = 210;
+//]]></script>
+<script src="http://static.acs86.com/g.js" type="text/javascript"></script>
+
+<!-- 互动通代码 -->
+<script src="http://cast.ra.icast.cn/p/?id=3240" type="text/javascript"></script>
+<script src="http://cast.ra.icast.cn/p/?id=3237" type="text/javascript"></script>
+<script src="http://cast.ra.icast.cn/p/?id=1101" type="text/javascript"></script>
+ 
+
+</body>
+</html>
+
+

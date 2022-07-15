@@ -94,7 +94,7 @@ function tidy_all_files_fenlei(){
 
 	tidy_all_files(input_dir,output_dir)
 }
-tidy_all_files_fenlei()
+// tidy_all_files_fenlei()
 
 function tidy_all_files_time(){
 	const input_dir = path.join(__dirname, "..", "raw","sina_blog", "chan_time")
@@ -102,4 +102,4 @@ function tidy_all_files_time(){
 
 	tidy_all_files(input_dir,output_dir)
 }
-// tidy_all_files_time()
+tidy_all_files_time()

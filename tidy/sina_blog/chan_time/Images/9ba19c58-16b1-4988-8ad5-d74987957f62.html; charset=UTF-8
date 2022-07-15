@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="baidu-site-verification" content="fp0uldEpD6" />
+	<meta name="Description" content="茄子是一款基于云计算能力与天翼云超大存储能力的云端个人相册，为摄影爱好者提供照片存储、分享与交流等服务。茄子支持包括电脑、手机、ITV等三屏终端的使用，用户可随时随地拍照上传至云端，并分享图片给自己在家的亲人浏览，实现不同区域、终端的即时分享！">
+	<meta name="Keywords"  content="茄子，茄子相册，天翼相册，相册，云相册，三屏相册，大容量相册，图库">
+    <title>首页 茄子-您最实用的三屏相册</title>
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+
+    <link href="/css/pc/css/style/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/css/pc/css/history/history.css"/>
+    <link href="/css/pc/css/style/mystyle.css" rel="stylesheet" type="text/css"/>
+	<style type="text/css">
+		#ad a{cursor:pointer;}
+		#warn{text-align:left;padding:2px 10px;width:auto;background:#F7EBA0;}
+	</style>
+</head>
+
+<body onkeydown="KeyDown(event);">
+
+
+<div class="cotent">
+<!--提示弹框last开始-->
+<div class="tishialertjjl jjlh" id="tishi"
+     style="display: none; z-index: 10000000">
+    <div class="tishidiv">
+        <div class="tishidivtitle">
+            提示信息
+        </div>
+        <div class="tishidivcont">
+            <span>提示：</span><span id="nr"></span>
+        </div>
+        <div class="tishidivfooter">
+            <input type="image" id="qd" src="/images/pc/images/create_qd.jpg"
+                   width="62" height="20"/>
+        </div>
+    </div>
+</div>
+<!-- 头部开始-->
+                <script type="text/javascript" src="/js/pc/js/analytics.js"></script>
+<!--script type="text/javascript" src="js/jquery-1.7.1.min.js"></script-->
+<script type="text/javascript" src="/js/pc/js/wa_tracking.js"></script>
+
+    <script type="text/javascript" src="js/pc/js/script/common.js"></script>
+
+     <!--[if IE 6]>
+    <style type="text/css">
+           
+      .login_cheng{
+	background:none;
+	background:url(/images/pc/images/loginbg.gif) no-repeat;
+	
+
+	
+	
+	
+	
+}
+    </style>
+    <![endif]-->
+
+<div class="header">
+			<input type="hidden" id="hdpassport" value="" />
+			<div class="header_logo">
+				<img src="/images/pc/images/logo.png"  />
+			</div>
+			<div class="header_menue">
+				<!--未登录时菜单-->
+				<div class="menue">
+				   							<ul>
+								<li>
+									<span class="menuelow" id="sy"><a href="index.do?op=doHome">首页</a>
+									</span>
+								</li>
+								<li>
+									<span class="menuelow" id="ljxc"> <a
+										href="about.do?op=doAbout">了解相册</a>
+									</span>
+								</li>
+								<li>
+									<span class="menuelow" id="sbgg"><a
+										href="square.do?op=getsquare">随便逛逛</a>
+									</span>
+
+								</li>
+								<li>
+									<span class="menuelow" id="bzwd"> <a
+										href="users.do?op=tohelp">帮助文档</a>
+									</span>
+								</li>
+
+							</ul>
+
+								</div>
+				<!--未登录时右侧按钮--> 
+            		
+						<div class="rightwidth exitcheng" style="top: 0px;">
+							<span class="marginr" style="cursor: pointer;"><a
+								href="index.do?login=1" >登录</a>
+							</span>
+						</div>
+                        <!--
+						<div class="exitcheng" style="top: 0px;right: 50px">
+							<span class="marginr" style="cursor: pointer;"><a href="index.do?login=2" >注册</a></span>
+						</div>
+                        -->
+                       <div class="regbox" id="regbox"><a style="color:#fff;" href="http://e.189.cn/registerMobile.do" target="_blank">注册</a></div>
+
+					</div>
+
+		</div>    
+<!-- 头部结束 -->
+<div class="mid">
+<div style="width:100%;height:86px;position:relative;top:0px;z-index:0" id="ad"><a href="http://activities.imgicloud.com/Admin/index.php?s=/Api/albums"><img width="100%" height="86" src="images/pc/images/gg.png"></a>
+    <span style="display:inline-block;position:absolute;top:5px;right:5px;width:21px;height:21px;" id="adClose"><img width="21" height="21" src="images/pc/images/delete.png"></span>
+</div>
+		
+    <div class="index_main">
+        <div class="index_img">
+            <img src="images/pc/images/img1.jpg" width="962" height="363"
+                 usemap="#planetmap"/>
+            <map name="planetmap" id="planetmap">
+                                <area shape="rect" coords="29,297,124,322"
+                      href="download.do?op=toDownLoad&type=ios" alt="ios"/>
+                                <area shape="rect" coords="142,297,237,322"
+                      href="download.do?op=toDownLoad&type=android"/>
+            </map>
+        </div>
+        <div class="index_shangc">
+            <div class="index_scdiv">
+                <div class="index_scu">
+                    <img src="/images/pc/images/shangc.jpg" width="121" height="33"/>
+                </div>
+                <div class="index_scm">
+                    多种上传途径，上传更便捷
+                </div>
+                <div class="index_scd">
+                    提供网页本地上传、手机即拍即传等多种途径，上传照片轻而易举；超大容量，支持原图存储
+                </div>
+            </div>
+            <div class="index_scblank">
+                <img src="/images/pc/images/line.jpg" width="6" height="153"/>
+            </div>
+            <div class="index_scdiv">
+                <div class="index_scu">
+                    <img src="/images/pc/images/zhanshi.png" width="121" height="33"/>
+                </div>
+                <div class="index_scm">
+                    多屏终端支持，展示更全面
+                </div>
+                <div class="index_scd">
+                    通过电脑、手机、电视机等多终端秀出你的影像生活，广东ITV用户通过首页——应用——茄子登陆，
+                    <a href="download.do?op=toDownLoad&type=android" style="color: #336699;">手机用户点击该链接进入客户端下载页</a>
+                </div>
+            </div>
+            <div class="index_scblank">
+                <img src="/images/pc/images/line.jpg" width="6" height="153"/>
+            </div>
+            <div class="index_scdiv">
+                <div class="index_scu">
+                    <img src="/images/pc/images/fengxiang.jpg" width="121" height="33"/>
+                </div>
+                <div class="index_scm">
+                    多个社交通道，分享更轻松
+                </div>
+                <div class="index_scd">
+                    与好友分享你的故事，更可以一键轻松将照片分享到微博以及社交网站
+                </div>
+            </div>
+        </div>
+        <div class="index_duoping">
+            <div class="index_dpl">
+                <div class="index_dplt">
+                    多终端融合同步
+                </div>
+                <div class="index_dplc">
+                    <span>茄子提供电脑、手机、ITV三屏终端的相册服务，实现了多终端融合及同步，实时记录个人生活点滴，与好友共享精彩瞬间。</span>
+								<span style="color: #336699"><a href="users.do?op=tohelp">了解更多</a>
+								</span><span><img src="/images/pc/images/ljiang.jpg" width="10" height="9"/>
+								</span>
+                </div>
+            </div>
+            <div class="index_dpm"></div>
+            <div class="index_dpr">
+                <table width="100%" height="88" border="0" cellspacing="0"
+                       cellpadding="0">
+                    <tr>
+                        <td valign="middle">
+                            <div class="index_dpricon">
+                                <a href="users.do?op=tohelp"><img class="img"
+                                                                  src="/images/pc/images/icon1.png" width="58"
+                                                                  height="50"/>
+                                </a>
+
+                            </div>
+                            <div class="index_dpricon">
+                                <a href="download.do?op=toDownLoad&type=ios"><img
+                                        class="img" src="/images/pc/images/icon2.png" width="44" height="54"/>
+                                </a>
+
+                            </div>
+                            <div class="index_dpricon">
+                                <a href="download.do?op=toDownLoad&type=android"> <img
+                                    class="img" src="/images/pc/images/icon3.png" width="47" height="55"/>
+                                </a>
+                            </div>
+                            <div class="index_dpricon">
+                                <a href="toItvHelp.do?op=toitvhelp"> <img class="img"
+                                                                          src="/images/pc/images/icon4.png" width="52"
+                                                                          height="52"/>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="index_jincai">
+            <div class="index_jcimgdiv">
+
+                                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20140214/s/1185452.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20140214/s/1185437.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20131126/s/1137328.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20131112/s/1133337.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20130313/o/28081.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130821/s/1028256.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20131024/s/1104135.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20131112/s/1133302.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130913/o/1040921.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20131031/s/1131241.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20131128/o/1138140.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130827/o/1031621.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130524/s/1002779.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130912/s/1040652.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20130221/o/16682.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130729/s/1016396.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130221/o/16867.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20130821/s/1028303.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img022.21cnimg.com/photos/album/20130320/o/32241.jpg">
+
+                        </div>
+                                            <div class="index_jcimg">
+                            <img width="76" height="76" src="http://img021.21cnimg.com/photos/album/20130801/s/1017668.jpg">
+
+                        </div>
+                                    
+            </div>
+            <div class="index_jcfont">
+                <div class="index_jcfontt">
+                    精彩照片
+                </div>
+                <div class="index_jcfontc">
+                    <p>
+                        我们每天都会从几十万新上传的照片中，为您精选一批有意思的照片。
+                    </p>
+
+                    <p>
+                        每张照片的背后都有一个故事，它们可能关于爱情，可能关于亲情，也可能关于友情；它们可能是你熟悉的故乡，也可能是你从未听说过的地方；它们可能带给你欢乐，也可能带给你感动。
+                    </p>
+
+                    <p>
+                        不管如何，我们期待你跟我们，跟大家一起分享...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer开始-->
+        <div class="footer">
+    <div class="footeru"></div>
+    <div class="footerm">
+        <div class="footerml"></div>
+        <div class="footermlimg">
+            <img src="/images/pc/images/dlogo.jpg" width="111" height="52"/>
+        </div>
+        <div class="footermm">
+            免责申明：本（栏目、频道等）内容均由用户上传，中国电信不承担由于内容的合法性及健康性所引起的一切争议和法律责任。欢迎大家对不合法及不健康内容进行监督和举报。客服电话：10000
+        </div>
+        <div class="footermr">
+            <img src="/images/pc/images/gzg.jpg" width="60" height="52"/>
+        </div>
+    </div>
+    <div class="footerd">
+        <span style="font-weight: bold;">[增值电信业务经营许可证A2.B1.B2-20090001][文网文[2008]053号]</span>
+        <span style="color: #666;">粤B2-20040001-3 中国电信广东分公司</span>
+    </div>
+</div>
+<!-- 个人设置 -->
+<div class="huiyuanh_c" style="display: none; width: 114px !important; width: 124px;">
+    <div>
+        <a target="_self" href="/userInfo.do">个人设置</a>
+    </div>
+    <div>
+        <a href="index.do?logout=1">退出登录</a>
+    </div>
+</div>
+<div style="display:none;">
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fffeeebd32e869f363de8cda4ea25de04' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div><!--footer结束-->
+<div id="login_form" style="display: none">
+    <div class="cotent" style="position: absolute; top: 0px; left: 0px;">
+        <div
+                style="width: 1024px; height: 1218px; filter: alpha(opacity = 50); opacity: 0.5; -moz-opacity: 0.7; background: #333;">
+        </div>
+    </div>
+    <div class="login_cheng" >
+        <div class="login_all">
+            <div class="loadlastjjl" style="display: none;">
+							<span><img src="/images/pc/images/load.gif" width="24" height="24"/>
+							</span><span>载入中，请稍候……</span>
+            </div>
+            <input type="image" src="/images/pc/images/login_close.jpg"
+                   class="login_close"/>
+            <input class="login_input1" id="inputi" type="text" name=""/>
+            <label style="cursor: pointer; display: block;" class="login_inputfont" id="zhanghao" for="inputi">帐号:&nbsp;手机号/189通行证</label>
+						<span class="login_inputfont" style="display: block; left: 250px;"
+                              id="hzm"></span>
+
+            <input class="login_input2" id="inputii" type="password"/>
+            <span class="login_inputfont" id="mima" style="top: 199px;">密码：</span>
+
+            <div class="login_qd">
+                <div
+                        style="padding-left: 20px; width: 100px !important; width: 100px;">
+
+                    <input type="checkbox" class="indexcheck" id="checkbox" name=""/>
+                    <label style="display: block; float: left;">
+                        自动登录
+                    </label>
+                </div>
+                <div style="text-align: left; width: 60px;">
+                    <a href="http://e.189.cn/getPassword.do" target="_blank">忘记密码</a>
+                </div>
+                <div>
+                    <input type="image" src="/images/pc/images/login_btn.jpg" name=""
+                           id="login_bnt"/>
+                </div>
+                <span id="sb"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery.cookie = function(name, value, options) {
+        if (typeof value != 'undefined') { // name and value given, set cookie
+            options = options || {};
+            if (value === null) {
+                value = '';
+                options.expires = -1;
+            }
+            var expires = '';
+            if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+                var date;
+                if (typeof options.expires == 'number') {
+                    date = new Date();
+                    date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+                } else {
+                    date = options.expires;
+                }
+                expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+            }
+            var path = options.path ? '; path=' + options.path : '';
+            var domain = options.domain ? '; domain=' + options.domain : '';
+            var secure = options.secure ? '; secure' : '';
+            document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+        } else { // only name given, get cookie
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    };
+
+    function KeyDown(e) {
+        e = window.event || e;
+        var ke = e.keyCode || e.which;
+        if (ke == 13) {
+            //触发你的button事件
+            $("#login_bnt").focus();
+        }
+    }
+
+    function tijiao() {
+        var pwd = $('.login_cheng .login_all .login_input2').val();
+        var name = $('.login_cheng .login_all .login_input1').val().replace("@189.cn", "");
+
+        var namea = $.trim(name);
+        if(namea.charAt(0)=='0'){
+            namea=namea+"@189.cn";
+        }
+        var pwda = $.trim(pwd);
+        var checked = '1209600';
+        if ($('#checkbox').attr('checked') == 'checked') {
+            
+            checked = '1209600';
+        }
+        if (namea == '') {
+            $('#nr').html('用户名为空 ');
+            $('#tishi').show();
+            return 0;
+        }
+        if (pwda == '') {
+            $('#nr').html('请输入密码');
+            $('#tishi').show();
+            return 0;
+        }
+        $('.loadlastjjl').show();
+        $.getJSON("http://passport.21cn.com/api/login.do?jsoncallback=?", {userName: namea, password: pwda, saveLogin: checked,serviceId:180},function(data){
+            if(data.isLogin=="true"){
+                $.cookie('accessToken', data.accessToken, {expires: data.expiresIn/3600/24, path: '/', domain: 'p.21cn.com', secure: false});
+                window.location.href='/';
+            } else {
+                alert(data.errorMsg);
+            }
+        });
+    }
+    var login =0;
+    var inputing = false;
+    $(function () {
+	var paValue = $("#inputi").val();
+	if(paValue!=''){
+	
+		$("#zhanghao").hide();
+		$("#hzm").hide();
+	}
+        if (login == 1) {
+            $('#login_form').show();
+
+        }
+        $('#qd').bind('click', function () {
+            $('.loadlastjjl').hide();
+            $('.login_input2').focus();
+            $('#tishi').hide();
+
+        });
+        
+        $('#inputi').css("cursor", "pointer");
+        $("#zhanghao").css("cursor", "pointer");
+        $("#inputi").focus(function () {
+            inputing = true;
+            $('#inputi').attr('class', 'login_input1high');
+            var passport = $("#zhanghao").html();
+            $("#zhanghao").hide();
+            $("#hzm").hide();
+            var paValue = $("#inputi").val();
+            /*if(passport=="帐号:")
+            {
+               $("#zhanghao").hide();
+               $("#hzm").hide();
+               $('#inputi').attr('class','login_input1high');
+             }*/
+        });
+	
+        $('#inputi').blur(function () {
+            var paValue = $("#inputi").val();
+            if (paValue == "") {
+                $("#zhanghao").show();
+                $("#hzm").show();
+            }
+
+            paValue = paValue.replace("@189.cn", "");
+            $('#inputi').val(paValue);
+            paValue = paValue + "";
+            $('#inputi').val(paValue);
+            if (paValue == "@189.cn") {
+                $('#inputi').val('');
+                // $("#zhanghao").hide();
+            } else {
+            }
+            $('#inputi').attr('class', 'login_input1');
+        });
+        $("#zhanghao").bind('click', function () {
+            $("#zhanghao").hide();
+
+            $("#hzm").hide();
+            $("#inputi").focus();
+            $("#inputi").attr('class', 'login_input1high');
+        });
+        $('#inputii').css("cursor", "pointer");
+        $('#inputii').val('');
+        $('.login_inputfont').css("cursor", "pointer");
+        $("#inputii").focus(function () {
+            $('#inputii').attr('class', 'login_input2high');
+            $("#mima").hide();
+            var mima = $("#mima").html();
+            if (mima == "密码:") {
+                $("#mima").hide();
+                $('#inputii').attr('class', 'login_input2high');
+            }
+        });
+        $("#mima").bind('click', function () {
+            $("#mima").hide();
+            $("#inputii").focus();
+            $("#inputii").attr('class', 'login_input2high');
+        });
+        $("#inputii").blur(function () {
+            var mim = $(this).val();
+
+            if (mim == "") {
+                $("#mima").show();
+            }
+            $('#inputii').attr('class', 'login_input2');
+        });
+
+        // $('#login_uls').css("cursor", "pointer");
+
+        $('.loadlastjjl').hide();
+        $('.login_cheng .login_all .login_close').bind("click", function () {
+		
+            $("#zhanghao").show();
+            var passport = $('#inputi').attr('value', '');
+            $("#mima").show();
+            var mima = $('#inputii').attr('value', '');
+
+            $('#login_form').css("display", "none");
+            $('.login_cheng .login_all .login_qd span').text('');
+        });
+        $('#login').bind("click", function () {
+            $('#inputi').attr('class', 'login_input1');
+            /*if(passport=="")
+            {
+              $('#zhanghao').show();
+            } else
+            {
+                $('#inputi').val(passport);
+                $('#zhanghao').hide();
+
+            }*/
+            $('#zhanghao').show();
+            $('#hzm').show();
+
+            $('#login_form').css("display", "block");
+        });
+        $('#login_bnt').bind("click", function () {
+            tijiao();
+
+        });
+		//活动宣传
+		$("#adClose").click(function(){
+			$("#ad").animate({height:0},1000);
+		});
+    });
+
+
+</script>
+</body>
+
+</html>
+
